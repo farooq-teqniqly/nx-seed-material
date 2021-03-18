@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'seed';
+  navItems = [
+    {
+      link: 'account',
+      text: 'Account'
+    },
+    {
+      link: 'dashboard',
+      text: 'Dashboard'
+    }
+  ]
 }
